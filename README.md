@@ -1,3 +1,3 @@
-# design_patterns
+# Design patterns
 
 Version: Python 3.9
