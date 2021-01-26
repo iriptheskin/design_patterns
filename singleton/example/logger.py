@@ -36,7 +36,7 @@ class Logger:
 
     def __new__(cls, *args, **kwargs):
 
-        if not cls.instance:
+        if not cls.__instance:
             cls.__instance = cls.__Logger(*args, **kwargs)
 
         return Logger.__instance
