@@ -1,4 +1,4 @@
-from singleton.example.logger import Logger
+from creational.singleton import Logger
 LOG_FILE = 'file.log'
 
 # First setup.
