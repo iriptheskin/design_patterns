@@ -1,6 +1,9 @@
 # Prototype
 
 (Still unclear)
+The classes to instantiate are specified at runtime by means of dynamic loading. 
+The result of this characteristic of the prototype pattern is that sub-classing is reduced significantly.
+Why?
 
 Lets creation of new objects using copying of prototype object.
 
