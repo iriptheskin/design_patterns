@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from prototype.prototype import Prototype
+from creational.prototype import Prototype
 
 
 class Concrete(Prototype):

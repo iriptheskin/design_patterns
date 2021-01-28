@@ -1,7 +1,7 @@
 from copy import deepcopy
 from typing import Union
 
-from prototype.prototype import Prototype
+from creational.prototype import Prototype
 
 
 class Unit(Prototype):

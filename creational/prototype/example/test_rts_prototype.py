@@ -1,4 +1,4 @@
-from prototype.example.rts_prototype import Barrack
+from creational.prototype import Barrack
 
 barrack = Barrack()
 knight = barrack.build_unit('Knight', 1)
