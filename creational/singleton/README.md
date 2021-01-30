@@ -1,10 +1,11 @@
 # Singleton
 
 There is possible to instantiate only one object of a class, during program execution.
+ 
 
-When you have parts of a project that don't affect the execution of your code, like logging,
-it's acceptable to use global state. (as well as caching, load balancing, route mapping)
-
+Advantages:
+- Use the Singleton pattern when you need stricter control over global variables;
+- Use it when you need a single instance available for all clients, for instance logger;
 
 The main criticism of the singleton pattern is that it's just a pretty way to get a global
 state which is one of the things you want to avoid when writing programs. It's because one part of your program 
